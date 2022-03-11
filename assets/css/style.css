@@ -11,12 +11,21 @@
    color: #fff;
 }
 .comtainer {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: o 1rem;
 }
