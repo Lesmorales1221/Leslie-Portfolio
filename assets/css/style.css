@@ -66,6 +66,14 @@ nav a.menu {
     flex-basis: 50%;
 }
 
+.coding-desc {
+    display: flex;
+}
+
+.inner-desc {
+    margin: auto;
+}
+
 .coding-desc h1 {
     font-size: 3.5rem;
 }
