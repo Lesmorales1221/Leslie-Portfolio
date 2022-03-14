@@ -11,7 +11,7 @@
    color: #fff;
 }
 .comtainer {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@ nav h3 span {
     background: #F26C4F;
     color: #fff;
     padding: .5rem 1rem;
-    text-align: center;
+    border-radius: 8px;
 }
 nav ul {
     display: flex;
@@ -44,4 +44,34 @@ nav li {
 nav a {
     color: #fff;
     font-size: 1.2rem;
+}
+
+nav a.menu {
+    background: #F26C4F;
+    color: #fff;
+    padding: .5rem .8rem;
+    border-radius: 7px;
+}
+
+.content {
+    height: 80vh;
+}
+
+.flexbox {
+    display: flex; 
+    height: 100%;
+}
+
+.span-6 {
+    flex-basis: 50%;
+}
+
+.coding-desc h1 {
+    font-size: 3.5rem;
+}
+
+.span-6 img {
+    height: auto;
+    width: 50%; 
+    align-content: center;
 }
