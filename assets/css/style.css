@@ -28,7 +28,7 @@ nav h3 {
 }
 
 nav h3 span {
-    background: #F26C4F;
+    background: #2f2ce2;
     color: #fff;
     padding: .5rem 1rem;
     border-radius: 8px;
@@ -47,14 +47,15 @@ nav a {
 }
 
 nav a.menu {
-    background: #F26C4F;
+    background: #2f2ce2;
     color: #fff;
     padding: .5rem .8rem;
     border-radius: 7px;
 }
 
 .content {
-    height: 80vh;
+    height: 85vh;
+    
 }
 
 .flexbox {
@@ -93,4 +94,16 @@ nav a.menu {
     height: auto;
     width: 60%; 
     align-content: center;
+}
+
+.lava1 {
+    position: absolute;
+    right: 90%;
+}
+
+.lava2 {
+    position: absolute;
+    left: 85%;
+    bottom: 106px;
+
 }
