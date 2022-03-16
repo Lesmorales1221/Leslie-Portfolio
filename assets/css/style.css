@@ -1,13 +1,20 @@
+:root {
+    --darkBg : #222;
+    --darkerBg: #1f1f1f;
+    --bgAccent:  #2320b3;
+    --bgAccentDark: #1e1ca3;
+}
+
 *{
     margin: 0;
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Hk Grotesk Regular', 'Serif';
 }
 
 .wrapper {
-   background: #222;
+   background: var(--darkBg);
    color: #fff;
 }
 .comtainer {
@@ -28,7 +35,7 @@ nav h3 {
 }
 
 nav h3 span {
-    background: #2f2ce2;
+    background:var(--bgAccent);
     color: #fff;
     padding: .5rem 1rem;
     border-radius: 8px;
@@ -47,7 +54,7 @@ nav a {
 }
 
 nav a.menu {
-    background: #2f2ce2;
+    background: var(--bgAccent);
     color: #fff;
     padding: .5rem .8rem;
     border-radius: 7px;
@@ -106,4 +113,13 @@ nav a.menu {
     left: 85%;
     bottom: 106px;
 
+} 
+
+.about {
+    background: var(--darkerBg);
+
+}
+
+.flex {
+     display: flex;
 }
