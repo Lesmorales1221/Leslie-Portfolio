@@ -1,8 +1,8 @@
 :root {
     --darkBg : #222;
     --darkerBg: #1f1f1f;
-    --bgAccent:  #2320b3;
-    --bgAccentDark: #1e1ca3;
+    --bgAccent:  #1b1eeb;
+    --bgAccentDark: #0916d4;
 }
 
 *{
@@ -103,23 +103,38 @@ nav a.menu {
     align-content: center;
 }
 
-.lava1 {
-    position: absolute;
-    right: 90%;
-}
-
-.lava2 {
-    position: absolute;
-    left: 85%;
-    bottom: 106px;
-
-} 
-
 .about {
     background: var(--darkerBg);
+    color: #fff;
+    padding: 2.5rem 0;
 
 }
 
 .flex {
      display: flex;
 }
+
+.about h5 {
+    color: var(--bgAccentDark);
+    margin-bottom: 1.3rem;
+    left: 10px;
+    
+    
+}
+.about-left {
+    padding-right: 1rem;
+}
+
+.about-left h2 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.about-left p {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    
+}
+
